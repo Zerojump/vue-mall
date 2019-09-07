@@ -4,9 +4,11 @@ import Vue from 'vue'
 // import App from './App'
 // import router from './router'
 import Layout from './components/layout'
-import VueRouter from "vue-router";
+import VueRouter from "vue-router"
+import VueResource from 'vue-resource'
 
 Vue.use(VueRouter)
+Vue.use(VueResource)
 // Vue.config.productionTip = false
 let router = new VueRouter({
   mode:'history',
